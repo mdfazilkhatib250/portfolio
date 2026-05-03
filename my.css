@@ -1,0 +1,187 @@
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.linkedin-link, .github-link, .instagram-link, .gmail-link{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; /* space between icon & text */
+    text-decoration: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+/* Colors */
+.linkedin-link{
+    background: linear-gradient(45deg, #0077b5, #00a0dc);
+}
+
+.github-link{
+    background: linear-gradient(45deg, #24292e, #444);
+}
+
+.instagram-link{
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.gmail-link{
+    background: linear-gradient(45deg, #ea4335, #fbbc05, #34a853, #4285f4);
+}
+
+/* Hover */
+.linkedin-link:hover, .github-link:hover, .instagram-link:hover, .gmail-link:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    background:#020617;
+}
+
+nav h2{
+    color:#38bdf8;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+
+
+/* HERO */
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:60px 20px;
+}
+
+.hero img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    border:4px solid #38bdf8;
+}
+
+.hero-text h1{
+    font-size:40px;
+}
+
+.hero-text span{
+    color:#38bdf8;
+}
+
+.hero-text p{
+    margin:15px 0;
+    line-height:1.6;
+}
+
+.btn{
+    background:#38bdf8;
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+    color:black;
+    cursor:pointer;
+}
+h3{
+    color: #38bdf8;
+    padding: 10px 30px;
+    
+}
+
+/* SECTION */
+section{
+    padding:40px;
+}
+
+h2{
+    margin-bottom:15px;
+    color:#38bdf8;
+}
+
+.qote{
+    color: red;
+}
+
+/* SKILLS */
+.skills ul{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.skills li{
+    list-style:none;
+    background:#1e293b;
+    padding:10px 15px;
+    border-radius:5px;
+}
+
+.btn-signin{
+    display: inline-block;
+    text-decoration: none;
+    background: #0077b5;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-signin:hover{
+    background: #005582;
+}
+
+
+/* CONTACT */
+form input, form textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+}
+
+form button{
+    background:#38bdf8;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
+
+</style>
